@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 276.08 83.93">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-3 {
+        font-size: 72px;
+      }
+
+      .cls-2, .cls-4 {
+        font-family: CenturyGothic, 'Century Gothic';
+      }
+
+      .cls-3 {
+        font-family: Candara, Candara;
+      }
+
+      .cls-5 {
+        fill: #282c34;
+      }
+
+      .cls-4 {
+        font-size: 60px;
+      }
+    </style>
+  </defs>
+  <g id="Lag_2" data-name="Lag 2">
+    <ellipse class="cls-5" cx="32.73" cy="39.22" rx="32.73" ry="33.95"/>
+  </g>
+  <g id="Lag_1" data-name="Lag 1">
+    <text class="cls-1" transform="translate(16.47 61.85)"><tspan class="cls-3" x="0" y="0">k</tspan><tspan class="cls-4" x="35.16" y="0"> </tspan><tspan class="cls-2" x="51.77" y="0">mersh</tspan></text>
+  </g>
+</svg>

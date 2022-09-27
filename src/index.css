@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* ---------- grid container styling ---------- */
+.grid-container {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  background-color: rgb(241, 241, 241);
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 5%;
+}
+
+.grid-container > article a {
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 0%;
+  color: black;
+}
+
+@media (min-width: 600px) {
+  .grid-container {
+      grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 992px) {
+  .grid-container {
+      grid-template-columns: 1fr 1fr 1fr;
+      width: 80%;
+  }
+}
+
+.grid-container > article {
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  padding: 1.5em;
+  background-color: rgb(241, 241, 241);
+  transition: 0.5s;
+  animation: fadeIn 0.5s;
+  cursor: pointer;
+}
+
+.grid-container > article ::first-letter {
+  text-transform: uppercase;
+}
+
+.grid-container > article:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+}
+
+.grid-container > article img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+}
+
+.grid-container > article a:hover {
+  color: #8992a5;
+}

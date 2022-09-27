@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 281.96 91.55">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #5b89c7;
+      }
+
+      .cls-2 {
+        font-family: CenturyGothic, 'Century Gothic';
+        font-size: 72px;
+      }
+
+      .cls-3 {
+        fill: #8aa5d6;
+      }
+
+      .cls-4 {
+        font-size: 60px;
+      }
+
+      .cls-4, .cls-5 {
+        font-family: SegoePrint, 'Segoe Print';
+      }
+
+      .cls-5 {
+        font-size: 36px;
+      }
+    </style>
+  </defs>
+  <g id="Lag_2" data-name="Lag 2">
+    <circle class="cls-3" cx="35.33" cy="41.44" r="35.33"/>
+  </g>
+  <g id="Lag_1" data-name="Lag 1">
+    <text class="cls-1" transform="translate(15.07 61.85)"><tspan class="cls-4" x="0" y="0">K</tspan><tspan class="cls-5" x="44.65" y="0"> </tspan><tspan class="cls-2" x="59.04" y="0">mersh</tspan></text>
+  </g>
+</svg>

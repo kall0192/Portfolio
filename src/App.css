@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400&display=swap');
+
+body {
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+.App {
+  text-align: center;
+  background-color: #282c34;
+}
+
+.app-header {
+  background-color: #282c34;
+  width: 100%;
+  display: none;
+}
+
+.home_title_desktop {
+  display: none;
+}
+
+.bg-img {
+  display: none;
+}
+
+.nav_container2 {
+  display: none;
+}
+
+.contact_bg_desktop {
+  display: none;
+}
+
+/*Burger menu*/
+.burger {
+  background-color: rgb(40, 44, 52);
+  font-family: 'Raleway', sans-serif;
+}
+
+.burger a {
+  display: flex;
+  flex-direction: column;
+}
+
+.burger a {
+  margin-left:80%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-decoration: none;
+  color: white;
+}
+
+/*Contact page*/
+
+
+
+.contact_bg {
+  display: block;
+  /* The image used */
+  background-image: url("./images/contact_bg.jpg");
+  min-height: 100vh;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+.contact_text {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.contact_text h1 {
+  margin-top: 0%;
+  padding-top: 15%;
+  text-align: center;
+}
+
+.contact_icons img {
+  margin-top: 10%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.contact_line {
+  border: rgb(40, 44, 52, 0.1) solid 1px;
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+/*About page*/
+
+.about_page {
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.about_page img {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+
+/*Mobile format*/
+.app-header_mobile {
+  background-color: #282c34;
+  width: 100%;
+}
+
+.burgermenu {
+  width: 30%;
+  height: auto;
+  margin-top: 5%;
+}
+
+.app-header_mobile button {
+  width: 30%;
+  height: auto;
+  float: right;
+  border: 0ch;
+  padding: 0%;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+/*Mobile format end*/
+.flex_parent {
+  display: flex;
+}
+
+.flex_child, .flex_child2{
+  flex: 1;
+}
+
+.nav_logo{
+ width: 30%;
+ height: auto;
+ padding: 1%;
+ padding-left: 4%;
+ padding-bottom: 0%;
+}
+
+.nav_header {
+  width: auto;
+}
+
+.app-header a{
+  margin: 5%;
+  color: white;
+  text-decoration: none;
+}
+
+.homepage_img_section {
+  background-color:  #282c34;
+}
+
+.homepage_img {
+  width: 100%;
+  display: block;
+  margin: auto;
+  margin-top: 0%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.home_title {
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.8em;
+  display: flex;
+  margin-left: 5%;
+  margin-top: 5%;
+  width: 90%;
+}
+
+.title{
+  width: 100%;
+  flex: 0 0 80%;
+}
+
+.title h3 {
+  margin-left: 5%;
+  margin-top: 3%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+}
+
+.portrait img {
+  width: 100%;
+  height: auto;
+  margin-top: 10%;
+  border-radius: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.line {
+  display: block;
+  margin: auto;
+  width: 90%;
+  border: solid #79817a 1px;
+  margin-top: 5%;
+}
+
+.title_projects h4 {
+  display: block;
+  margin-left:5%;
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+
+/*Removing mobile components*/  
+.contact_bg {
+  display: none;
+}
+
+.app-header_mobile {
+  display: none;
+}
+
+.homepage_img { 
+  display: none;
+}
+  
+.routes_mobile {
+  display: none;
+}
+
+.app-header {
+  display: none;
+}
+
+.home_title {
+  display: none;
+}
+
+.nav_container2 {
+  display: block;
+  background-color: #282c34;
+}
+
+.bg-img {
+  display: block;
+/* The image used */
+  background-image: url("./images/coding.jpg");
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  min-height: 100vh;
+/* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+/* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(40, 44, 52, 0.8);
+}
+
+.nav {
+  margin-left: 60%;
+  padding-top: 0.4%;
+  padding-bottom: 0%;
+}
+
+.nav a {
+  margin-right: 10%;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.topnav a:hover {
+  color: #79817a;
+  transition: .1s;
+  -webkit-transition: .1s;
+  -moz-transition: .1s;
+}
+
+.nav_header a {
+  width: 10%;
+  padding: 0.5%;
+  padding-bottom: 0%;
+}
+
+.nav_logo{
+  width: 90%;
+  height: auto;
+  padding: 1%;
+  padding-left: 20%;
+  padding-bottom: 0%;
+ }
+
+ /*Displaying home page portrait and title*/
+
+.home_title_desktop {
+  height: 40%;
+  display: flex;
+  overflow: hidden;
+  background-color: rgb(40, 44, 52, 0);
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10%;
+}
+
+.title{
+  width: 50%;
+  flex: 0 0 0%;
+  margin: 10% 10% 0% 5%;
+}
+
+.title h3 {
+  margin-left: 2%;
+  margin-top: 0%;
+  color: white;
+  font-size: 2em;
+}
+
+.portrait{
+  width: 40%
+}
+
+.portrait img {
+  float: right;
+  width: 60%;
+  opacity: 0.9;
+  height: auto;
+  margin-top: 0%;
+  border-radius: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.line {
+  display: block;
+  margin: auto;
+  width: 80%;
+  border: solid rgb(40, 44, 52, 0.8) 1px;
+  margin-top: 5%;
+}
+
+.title_projects h4 {
+  display: block;
+  margin-left:10%;
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+}
+
+/*Contact page desktop format*/
+
+.contact_bg_desktop{
+  display: block;
+  background-image: url("./images/contact_bg_desktop.jpg");
+  min-height: 100vh;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+.contact_icons img {
+  margin-top: 5%;
+}
+
+.contact_bg_desktop p {
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+.contact_line {
+  border: rgb(40, 44, 52, 0.2) solid 1px;
+  display: block;
+  width: 30%;
+  margin: auto;
+}
+
+/*Contact desktop format end*/
+
+/*About me page desktop*/
+
+.about_page {
+  margin-left: 23%;
+  margin-right: 23%;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.about_page img {
+  width: 30%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+
+}
+
+
+/*Top nav bar a tags postioning*/
+@media only screen and (min-width: 768px) {
+  
+  .nav {
+    margin-left: 40%;
+  }
+}
+
+@media only screen and (min-width: 979px) {
+  
+  .nav {
+    margin-left: 60%;
+  }
+}
+
+/*Footer*/
+
+.footer {
+  
+  width: 100%;
+  position: relative;
+  height: auto;
+  background-color: rgb(40, 44, 52);
+  font-family: 'Raleway', sans-serif;
+  padding-left: 0%;
+}
+.footer .col {
+  width: 190px;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0px 20px 20px 20px;
+  padding-bottom: 0%;
+}
+.footer .col h1 {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 17px;
+  padding: 20px 0px 5px 0px;
+  color: rgba(255,255,255, 1);
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.250em;
+}
+.footer .col a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+}
+
+.footer h1:hover {
+  color: #999999;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+}
+
+.footer .col, ul {
+  padding: 0%;
+  margin-top: 0%;
+}
+
+.footer .col li {
+  color: #999999;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 5px 0px 5px 0px;
+  list-style: none;
+}
+.social ul li {
+  display: inline-block;
+  padding-right: 5px !important;
+}
+
+.col_img {
+  margin-left:70%;
+}
+
+.col_img img {
+  padding-top: 12px;
+  width: 40px;
+  height: 50px;
+  padding-right: 10px;
+}
+
+
+.clearfix {
+  clear: both;
+}
+@media only screen and (min-width: 1280px) {
+  .contain {
+    width: 1200px;
+    margin-left: 8.5%;
+    margin-right: 0%;
+  }
+}
+@media only screen and (max-width: 1139px) {
+  .contain .social {
+    width: 1000px;
+    display: block;
+  }
+  .social h1 {
+    margin: 0px;
+  }
+
+  .col_img {
+    margin-left:0%;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .footer .col {
+    width: 25%;
+  }
+  .footer .col h1 {
+    font-size: 14px;
+  }
+  .footer .col ul li {
+    font-size: 13px;
+  }
+
+}
+@media only screen and (max-width: 500px) {
+
+
+    .footer .col {
+      width: 50%;
+    }
+    .footer .col h1  {
+      font-size: 14px;
+      padding-left: 10%;
+    }
+
+
+    .footer .col ul li {
+      font-size: 13px;
+      padding-left: 10%;
+    }
+
+    .col_img img {
+      width: 10%;
+      padding-top: 3%;
+      padding-left: 3%
+    }
+}
+@media only screen and (max-width: 340px) {
+  .footer .col {
+    width: 100%;
+  }
+}
+
+/*Footer end*/
+
